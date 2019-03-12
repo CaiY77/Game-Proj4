@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <title>Flight</title>
+</head>
+
+<body>
+  <div onclick="" id="mainDiv">
+    <ul id="instr">
+      <li><h1>INSTRUCTIONS</h1></li>
+      <li>Click the clouds</li>
+      <li>Each cloud click is +0.50</li>
+      <li>Everything else is -1</li>
+      <li>Bonus: +10 Somewhere...</li>
+
+
+    </ul>
+
+    <div onclick="penalty()" id="bird"></div>
+    <button onclick="move();" id="start">START</button>
+    <button onclick="location.reload()" id="rT">Re-Try</button>
+    <div onclick="penalty()" id="building"></div>
+    <div onclick="bonus()" id="plane"></div>
+    <div onclick="count()" id="cloud"></div>
+    <div onclick="count()" id="cloud2"></div>
+    <div onclick="count()" id="cloud3"></div>
+    <div onclick="count()" id="cloud4"></div>
+    <div onclick="count()" id="cloud5"></div>
+    <div onclick="count()" id="cloud6"></div>
+    <div onclick="penalty()" id="sun"></div>
+
+<form name="coun">
+  <input type="text" name="ter" class="myCounter" placeholder="Score">
+
+</form>
+
+
+
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
